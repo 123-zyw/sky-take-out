@@ -7,5 +7,14 @@
     "java.configuration.updateBuildConfiguration": "automatic",
     "java.debug.settings.enableRunDebugCodeLens": true,
     "java.import.maven.enabled": true,
-    "java.autobuild.enabled": false
+    "java.autobuild.enabled": false,
+    "java.completion.importOrder": [
+        "java",
+        "javax",
+        "com",
+        "org"
+    ],
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    }
 }
